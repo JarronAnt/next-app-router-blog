@@ -37,6 +37,7 @@ export function Header() {
               <div className="space-x-6 text-sm font-medium">
                 <Link href="/">Home</Link>
                 <Link href="/about">About</Link>
+                <Link href="/test">TEST</Link>
               </div>
             </div>
           </div>
@@ -58,6 +59,11 @@ export function Header() {
         <div>
           <Link href="/about" onClick={toggleMobileMenu}>
             About
+          </Link>
+        </div>
+        <div>
+          <Link href="/test" onClick={toggleMobileMenu}>
+            TEST
           </Link>
         </div>
       </div>

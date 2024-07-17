@@ -8,6 +8,7 @@ export function Footer() {
         <nav className="space-x-6 text-center text-sm font-medium">
           <Link href="/">Home</Link>
           <Link href="/about">About</Link>
+          <Link href="/test">TEST</Link>
         </nav>
 
         <div className="flex items-center justify-center">
